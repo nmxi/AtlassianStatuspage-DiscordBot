@@ -154,13 +154,11 @@ Statuspageは以下のイベントで通知を送信します：
 ### 通知メッセージ例
 ```
 ⚠️ **Production System Status Update**
-```
 Service: API Gateway
 New Status: 🟡 Partial Outage
 Previous Status: ✅ Operational
 
 API Gatewayに部分的な障害が発生しています。一部のAPIエンドポイントで接続エラーが発生する可能性があります。
-```
 [View Details](https://status.example.com)
 ```
 
