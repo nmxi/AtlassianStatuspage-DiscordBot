@@ -1,5 +1,8 @@
 # Atlassian Statuspage Discord Bot
 
+![image](https://github.com/user-attachments/assets/66aaa97f-6491-4b13-80c0-ea990a62f1f3)
+
+
 ## 概要
 Atlassian StatuspageのWebhookイベントを受信し、ChatGPT APIを使用してメッセージを解釈し、Discord上に分かりやすい形式で通知を投稿するボットシステム。Firebase Functionsを使用してサーバーレス環境で動作します。
 
