@@ -130,11 +130,6 @@ test-webhook-for-emulator.bat
 ```bash
 # Windows
 test-webhook.bat
-
-# または直接curlコマンド
-curl -X POST https://[YOUR-FUNCTION-URL]/statuspageWebhook \
-  -H "Content-Type: application/json" \
-  -d '{"data":{"component":{"name":"API Gateway","status":"operational"},"page":{"name":"Test Service","url":"https://status.example.com"}}}'
 ```
 
 ## Webhook イベントタイプ
