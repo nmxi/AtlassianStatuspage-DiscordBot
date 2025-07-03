@@ -1,0 +1,41 @@
+# 環境変数
+.env
+.env.local
+.env.*.local
+
+# Firebase
+.runtimeconfig.json
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+.firebaserc
+
+# Functions
+functions/node_modules/
+functions/lib/
+
+# ログ
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# テスト
+coverage/
+.nyc_output/
+
+# ビルド
+dist/
+build/
+.claude
